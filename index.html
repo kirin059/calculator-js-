@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>calculator</title>
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="calculatorContainer">
+            <div class="outputContainer">
+                <!-- 결과값이 출력만 되기 때문에 readonly를 써준다 -->
+                <input class="previous" type="text" maxlength="15" readonly />
+                <input class="current" type="text" maxlength="15" readonly />
+            </div>
+            <!-- input 입력 글자수 제한하기 -->
+
+            <div class="calculatorBtn">
+                <input class="spanTwo clear" type="button" value="AC" />
+                <input class="del" type="button" value="DEL" />
+                <input class="operator" type="button" value="/" />
+
+                <input class="number" type="button" value="1" />
+                <input class="number" type="button" value="2" />
+                <input class="number" type="button" value="3" />
+                <input class="operator" type="button" value="*" />
+
+                <input class="number" type="button" value="4" />
+                <input class="number" type="button" value="5" />
+                <input class="number" type="button" value="6" />
+                <input class="operator" type="button" value="+" />
+
+                <input class="number" type="button" value="7" />
+                <input class="number" type="button" value="8" />
+                <input class="number" type="button" value="9" />
+                <input class="operator" type="button" value="-" />
+
+                <input class="number" type="button" value="." />
+                <input class="number" type="button" value="0" />
+                <input class="spanTwo result" type="button" value="=" />
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
